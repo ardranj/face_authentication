@@ -41,3 +41,41 @@ app-example
 # generated native folders
 /ios
 /android
+
+# ----------------------------------------------------------------🔑
+# React Native & JavaScript Core
+# ----------------------------------------------------------------
+node_modules/
+.expo/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ----------------------------------------------------------------📱
+# Android Native Build Outputs (Crucial for Low RAM)
+# ----------------------------------------------------------------
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+~*
+
+# Ignore auto-generated signing keys, but keep configuration structures
+*.keystore
+*.jks
+!*.properties
+
+# ----------------------------------------------------------------💻
+# Editor & OS Temp Files
+# ----------------------------------------------------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+Thumbs.db
+.DS_Store
+
